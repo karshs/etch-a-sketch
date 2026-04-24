@@ -1,0 +1,20 @@
+/* style.css */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    /* Fixed size for the grid */
+    height: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    /* Centers the grid on the screen */
+}
+
+.grid-square {
+    /* Calculate size based on 500px / 16 */
+    width: 31.25px;
+    height: 31.25px;
+    box-sizing: border-box;
+    /* Crucial! Keeps borders inside the width */
+    border: 1px solid #eee;
+}
