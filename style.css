@@ -18,3 +18,8 @@
     /* Crucial! Keeps borders inside the width */
     border: 1px solid #eee;
 }
+
+/* The 'ink' color for our pen */
+.active {
+    background-color: black;
+}

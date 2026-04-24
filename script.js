@@ -11,9 +11,10 @@ function createGrid(size) {
     for (let i = 0; i < totalSquares; i++) {
         // Create the div
         const square = document.createElement('div');
-
-        // Add the class for styling
         square.classList.add('grid-square');
+        square.addEventListener('mouseover', () => {
+            square.classList.add('active');
+        });
 
         // Append it to the container
         container.appendChild(square);
